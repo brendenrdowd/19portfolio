@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height:100%;
+}
+
+.wrapper{
+    width:100%;
+    margin:auto;
+    padding: 0 15px;
+}
+
+@media(min-width:576px){
+    .wrapper{
+        max-width:85%
+    }
+}
+
+@media(min-width:768px){
+    .wrapper{
+        max-width:85%
+    }
+}
+
+@media(min-width:992px){
+    .wrapper{
+        max-width:80%;
+    }
+}
+
+@media(min-width:1200px){
+    .wrapper{
+        max-width:70%;
+    }
+}
+
+button{
+    cursor: pointer;
+    border-radius:10px;
+    padding:15px;
+    box-sizing: border-box;
+    background-color: #333333;
+    color:white;
+    border:none;
+    margin:1em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+    background-color: #474747;
+    box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.1);
+    color: #fff;
+    transform: translateY(-1px);
+}
+.CTA{
+    font-kerning:normal;
+}
+h1{
+    color:#7a7a7a
+}
+header{
+    text-align: center;
+    background-color: #141414;
+    height: 100%;
+    padding: 1em 0;
+}
+@media(max-width:575px){
+    /* white bar and breaking point need to be dealt with */
+}
+.hero-text{
+    /* font-size: 1.5em; */
+    color:white;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+main > section{
+    margin:1em;
+}
+
+section{
+    /* height:30em; placeholder */
+    /* just for wireframming purposes */
+    background-color:#ebebeb;
+    padding:15px;
+    margin-top:15px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom:5px;
+}
+
+/* #projects{
+    height:50em;
+} */
+
+.project{
+    width:60%;
+    margin: 1em auto;
+}
+.project > div{
+    height:20em;
+    background-color:black;
+    margin:1em 0;
+}
+
+@media(max-width:800px){
+    .project > div{
+        height:10em;
+    }
+}
+
+#contact{
+    text-align: center;
+}
+
+p{
+    margin-bottom:5px;
+    line-height:130%;
+    font-size:16px;
+}
+.contact-bar{
+    width:20%;
+    margin:2em auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width:640px){
+    .contact-bar{
+        width:30%;
+    }
+}
+
+i{
+    color:black;
+}
