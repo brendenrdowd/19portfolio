@@ -6,6 +6,11 @@
 
 html,body{
     height:100%;
+    background-color:black;
+}
+
+h1,h1,h3,h4,h5,button{
+    font-family: 'Raleway',sans-serif;
 }
 
 .wrapper{
@@ -55,24 +60,38 @@ button:hover {
     color: #fff;
     transform: translateY(-1px);
 }
-.CTA{
-    font-kerning:normal;
+.button-bar{
+    display: flex;
+    justify-content: center;
 }
+
 h1{
-    color:#7a7a7a
+    color:white
 }
 header{
     text-align: center;
-    background-color: #141414;
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100%;
     padding: 1em 0;
 }
+
+canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+ }
+ 
 @media(max-width:575px){
     /* white bar and breaking point need to be dealt with */
 }
 .hero-text{
     /* font-size: 1.5em; */
-    color:white;
+    color:rgb(24, 165, 170);
 }
 
 .vertical-center {
@@ -81,6 +100,7 @@ header{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 main > section{
     margin:1em;
 }
@@ -106,14 +126,16 @@ section{
     width:60%;
     margin: 1em auto;
 }
-.project > div{
-    height:20em;
-    background-color:black;
+.project > img{
+    width:100%;
+    display: block;
+    margin: auto;
+    /* background-color:black; */
     margin:1em 0;
 }
 
 @media(max-width:800px){
-    .project > div{
+    .project > img{
         height:10em;
     }
 }
@@ -123,7 +145,7 @@ section{
 }
 
 p{
-    margin-bottom:5px;
+    margin-bottom:10px;
     line-height:130%;
     font-size:16px;
 }
