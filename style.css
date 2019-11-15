@@ -138,6 +138,9 @@ section{
     .project{
         width:80%;
     }
+    section .wrapper p{
+        padding-right:2em;
+    }
 }
 
 #contact{
