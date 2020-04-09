@@ -232,3 +232,8 @@ color:black;
 #email{
   font-size: 100%;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
