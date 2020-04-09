@@ -46,21 +46,17 @@ color:black;
 /* container */
 .container {
   width: 100%;
-  /* padding: 1em 15px; */
   margin-right: auto;
   margin-left: auto;
 }
-.App.container{
-  min-height: 100vh;
-}
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    width: 540px;
   }
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    width: 720px;
   }
   .buttonbar{
     flex-direction: row !important;
@@ -68,12 +64,12 @@ color:black;
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    width: 1140px;
   }
 }
 
@@ -193,18 +189,18 @@ color:black;
   margin: 1em auto;
 }
 .project > img{
-  width:100%;
+  width:90%;
   display: block;
   margin: auto;
   margin:1em 0;
 }
 
-@media(max-width:800px){
+@media(min-width:800px){
   .project > img{
-      height:10em;
+    height:10em;
   }
   .project{
-      width:90%;
+    width:100%;
   }
 }
 
