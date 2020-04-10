@@ -208,12 +208,6 @@ color:white;
   justify-content: space-around;
 }
 
-@media(max-width:640px){
-  .contact-bar{
-    width:30%;
-  }
-}
-
 .social,.social:hover{
     background: none;
     border: none;
