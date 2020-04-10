@@ -81,7 +81,7 @@ color:white;
 }
 .btn{
   border: none;
-  background: rgba(255, 255, 255, 0.95);
+  background-color: white;
   font-weight: 100;
   padding: 20px;
   text-transform: uppercase;
@@ -95,10 +95,10 @@ color:white;
   text-align: center;
 }
 .btn:hover {
-  color: #ff5e7a !important;
+  color: white !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
-  background: white;
+  background: #ff5e7a;
   -webkit-box-shadow: 0px 5px 40px -10px #ff375a;
   -moz-box-shadow: 0px 5px 40px -10px #ff375a;
   transition: all 0.3s ease 0s;
