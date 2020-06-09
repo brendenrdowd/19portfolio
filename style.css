@@ -91,16 +91,16 @@ color:white;
   cursor: pointer;
   margin:1em;
   text-decoration: none;
-  color: #ff5e7a !important;
+  color: #e84e69 !important;
   text-align: center;
 }
 .btn:hover {
   color: white !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
-  background: #ff5e7a;
-  -webkit-box-shadow: 0px 5px 40px -10px #ff375a;
-  -moz-box-shadow: 0px 5px 40px -10px #ff375a;
+  background: #e84e69;
+  -webkit-box-shadow: 0px 5px 40px -10px #e84e69;
+  -moz-box-shadow: 0px 5px 40px -10px #e84e69;
   transition: all 0.3s ease 0s;
 }
 
@@ -150,8 +150,8 @@ color:white;
   background: rgb(36,15,36);
   background: rgba(35,15,35,0.9);
   line-height: 1.5;
-  -webkit-box-shadow: 0px 5px 40px -10px #ff375a;
-  -moz-box-shadow: 0px 5px 40px -10px #ff375a;
+  -webkit-box-shadow: 0px 5px 40px -10px #e84e69;
+  -moz-box-shadow: 0px 5px 40px -10px #e84e69;
 }
 
 .close {
